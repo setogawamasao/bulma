@@ -1,13 +1,15 @@
 import React from "react";
 
-class App extends React.Component {
-  render() {
-    return <h1>HELLO REACT + TYPESCRIPT WORLD</h1>;
-  }
-}
-
-//const App = () => {
-//  return <h1>HELLO REACT + TYPESCRIPT WORLD</h1>
-//};
+const App = () => {
+  return (
+    <div className="field">
+      <label className="label">Label</label>
+      <div className="control">
+        <input className="input" type="text" placeholder="Text input" />
+      </div>
+      <p className="help">This is a help text</p>
+    </div>
+  );
+};
 
 export default App;
