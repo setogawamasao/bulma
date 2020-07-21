@@ -9,7 +9,6 @@ const App = () => {
       <div className="control">
         <input className="input" type="text" placeholder="Text input" />
       </div>
-      <p className="help">This is a help text</p>
     </div>
   );
 };
