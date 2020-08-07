@@ -20,3 +20,5 @@ import "bulma/css/bulma.css";
 
 class 　 → 　 className に変換する  
 \<input> → 　\<input/> 単独タグは閉じる
+\<img> → 　\<img/> 単独タグは閉じる
+\<hr> → 　\<hr/> 単独タグは閉じる
